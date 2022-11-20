@@ -1,6 +1,8 @@
 package module2;
 
-public class moduleClass {
+import basePackage.BaseInit;
+
+public class moduleClass extends BaseInit {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
