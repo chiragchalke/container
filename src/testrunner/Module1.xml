@@ -1,0 +1,15 @@
+<suite name="Module1:HR Module">
+<test name="Validate User">
+<classes>
+<class name="containerPackage.ValidateUser">/</class>
+</classes>
+</test>
+
+
+<test name="ExtractManufacturer">
+<classes>
+<class name="containerPackage.LogIn">/</class>
+</classes>
+</test>
+
+</suite>
