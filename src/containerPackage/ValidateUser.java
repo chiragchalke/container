@@ -18,8 +18,8 @@ public class ValidateUser extends BaseInit {
 	
 @Test
 	public void testValidateuser() throws InterruptedException {
-		driver.get(sitedata.getProperty("url1"));
-		MyLibrary.signIN("standard_user", "secret_sauce");
+		driver.get(sitedata.getProperty("url"));
+		MyLibrary.signIN(sitedata.getProperty("login_uname"), sitedata.getProperty("login_password"));
 		boolean checkLogin;
 		try {
 			checkLogin = driver.findElement(By.linkText("PRODUCTS")).isDisplayed();

@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Module1:HR Module" duration-ms="81" started-at="2022-11-23T06:55:02Z" finished-at="2022-11-23T06:55:02Z">
+  <suite name="Default suite" duration-ms="91" started-at="2023-01-10T19:09:36Z" finished-at="2023-01-10T19:09:36Z">
     <groups>
     </groups>
-    <test name="Validate User" duration-ms="49" started-at="2022-11-23T06:55:02Z" finished-at="2022-11-23T06:55:02Z">
+    <test name="Default test" duration-ms="91" started-at="2023-01-10T19:09:36Z" finished-at="2023-01-10T19:09:36Z">
       <class name="containerPackage.ValidateUser">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:containerPackage.ValidateUser@2a2d45ba]" name="setup" is-config="true" duration-ms="0" started-at="2022-11-23T12:25:02Z" finished-at="2022-11-23T12:25:02Z">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:containerPackage.ValidateUser@157632c9]" name="setup" is-config="true" duration-ms="0" started-at="2023-01-11T00:39:36Z" finished-at="2023-01-11T00:39:36Z">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
@@ -21,7 +21,7 @@
 	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
 	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:91)
 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at basePackage.BaseInit.startup(BaseInit.java:33)
+	at basePackage.BaseInit.startup(BaseInit.java:31)
 	at containerPackage.ValidateUser.setup(ValidateUser.java:16)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -51,13 +51,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="testValidateuser()[pri:0, instance:containerPackage.ValidateUser@2a2d45ba]" name="testValidateuser" duration-ms="0" started-at="2022-11-23T12:25:02Z" finished-at="2022-11-23T12:25:02Z">
+        <test-method status="SKIP" signature="testValidateuser()[pri:0, instance:containerPackage.ValidateUser@157632c9]" name="testValidateuser" duration-ms="2" started-at="2023-01-11T00:39:36Z" finished-at="2023-01-11T00:39:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidateuser -->
       </class> <!-- containerPackage.ValidateUser -->
-    </test> <!-- Validate User -->
-    <test name="ExtractManufacturer" duration-ms="0" started-at="2022-11-23T06:55:02Z" finished-at="2022-11-23T06:55:02Z">
-    </test> <!-- ExtractManufacturer -->
-  </suite> <!-- Module1:HR Module -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

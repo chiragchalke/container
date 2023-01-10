@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Module1:HR Module]">
-  <test name="Validate User(failed)">
+<suite name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none">
     <classes>
       <class name="containerPackage.ValidateUser">
         <methods>
@@ -10,5 +10,5 @@
         </methods>
       </class> <!-- containerPackage.ValidateUser -->
     </classes>
-  </test> <!-- Validate User(failed) -->
-</suite> <!-- Failed suite [Module1:HR Module] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
